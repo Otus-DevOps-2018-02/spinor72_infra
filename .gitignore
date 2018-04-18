@@ -9,3 +9,12 @@ jdauphant.nginx
 .vscode
 .idea
 vault.key
+# Vagrant & molecule
+.vagrant/
+*.log
+*.pyc
+.molecule
+.cache
+.pytest_cache
+.imported_roles/
+ansible/roles/db/
